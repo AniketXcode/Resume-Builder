@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import HERO_IMG from "../assets/hero-img.png";
+import HERO_IMG from "../assets/hero-img.webp";
 import Login from "../pages/Auth/Login";
 import SignUp from "../pages/Auth/SignUp";
 import Modal from "../components/Modal"; // assuming you already have a Modal component
