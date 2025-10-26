@@ -35,7 +35,7 @@ app.use(
   "/upload",
   express.static(path.join(__dirname, "uploads"), {
     setHeaders: (res, path) => {
-      res.set("Access-Control-Allow-Origin", "http://;ocalhost:5173");
+      res.set("Access-Control-Allow-Origin", "http://localhost:5173");
     },
   })
 );
